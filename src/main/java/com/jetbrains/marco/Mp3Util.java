@@ -7,6 +7,10 @@ import java.nio.file.Path;
 
 public class Mp3Util {
 
+    public static void main(String[] args) {
+        System.out.println("Message from main");
+    }
+
     public static String getArtist(Path path) {
         try {
             Mp3File mp3file = new Mp3File(path);

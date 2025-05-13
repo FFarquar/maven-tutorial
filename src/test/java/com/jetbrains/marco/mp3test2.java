@@ -5,17 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
 
-public class Mp3UtilTest {
+public class mp3test2 {
 
     @Test
-    void getArtist_shouldBe_KraftClub() {
-        String artist = Mp3Util.getArtist(Paths.get("./my.mp3"));
-        Assertions.assertEquals("Maaarrrcoooo", artist);
-    }
-
-    @Test
-    void another_test_done2() {
+    void another_test_done() {
         String artist = Mp3Util.getArtist(Paths.get("./my.mp3"));
         Assertions.assertEquals("Maaarrrcoooo", artist);
     }
 }
+
